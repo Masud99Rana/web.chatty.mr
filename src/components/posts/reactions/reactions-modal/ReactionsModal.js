@@ -65,14 +65,14 @@ const ReactionsModal = () => {
             <li className={`${activeViewAllTab ? 'activeViewAllTab' : 'all'}`} onClick={viewAll}>
               All
             </li>
-            {formattedReactions.map((reaction, index) => (
+            {formattedReactions.map((reaction) => (
               <li
-                key={index}
+                key={Utils.generateString(10)}
                 className={`${reaction.type === reactionType ? 'activeTab' : ''}`}
                 style={{ color: `${reaction.type === reactionType ? reactionColor : ''}` }}
                 onClick={() => reactionList(reaction?.type)}
               >
-                <img src={`${reactionsMap[reaction?.type]}`} alt="" />
+                <img src={`${reactionsMap[reaction?.type]}`} atl="" />
                 <span>{Utils.shortenLargeNumbers(reaction?.value)}</span>
               </li>
             ))}
