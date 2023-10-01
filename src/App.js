@@ -1,6 +1,14 @@
-import '@root/App.scss';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRouter } from './routes';
+import './App.scss';
 
 const App = () => {
-  return <h1> Hello Masud</h1>;
+  return (
+    <>
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
+    </>
+  );
 };
 export default App;

@@ -59,6 +59,9 @@ npm i react-redux @reduxjs/toolkit
 
 ## Others
 =================
+npm i axios
+npm i lodash
+npm i react-icons
 npm i react-router-dom
 
 npm i socket.io-client
