@@ -63,4 +63,6 @@ npm i lodash
 npm i react-icons
 npm i react-router-dom
 
+npm i msw
+
 npm i socket.io-client
