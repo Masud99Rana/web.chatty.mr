@@ -70,4 +70,5 @@ npm i socket.io-client
 
 npm i millify
 
-
+npm i @loadable/component
+npm i emoji-picker-react
