@@ -18,4 +18,12 @@ const useLocalStorage = (key, type) => {
     console.log(error);
   }
 };
+
 export default useLocalStorage;
+
+// const username = useLocalStorage('username', 'get');
+// const [setMyUsername] = useLocalStorage('username', 'set');
+// setMyUsername('Masud');
+
+// const [deleteUsername] = useLocalStorage('username', 'delete');
+// deleteUsername();
