@@ -1,0 +1,64 @@
+
+
+installation / Command
+=======================
+=======================
+=======================
+
+
+Add Sass
+===============
+ npm i sass react-loading-skeleton
+
+
+Config eslint && prettier
+============================
+npm install -D eslint
+npm install -D prettier
+
+npm install -D eslint-plugin-react [ It will auto install with command npm eslint --init]
+
+> npx eslint --init
+    style
+    import/export
+    react
+    run in browser
+    define a style for project  > Answer questions about style
+    What format config file > JSON
+    What style of indentation > Tab
+    What quotes > single
+    What line endings > unix
+    require semicolons > Yes
+
+    package manager > npm
+
+
+npm install -D  eslint-config-prettier
+npm install -D  eslint-config-standard
+npm install -D  eslint-plugin-import
+npm install -D  eslint-plugin-jest
+npm install -D  eslint-plugin-n
+npm install -D  eslint-plugin-prettier
+npm install -D  eslint-plugin-promise
+npm install -D  eslint-plugin-react-hooks
+npm install -D  eslint-plugin-simple-import-sort
+npm install -D  jest-canvas-mock
+npm install -D  prettier
+
+Alias Config
+=================
+npm install react-app-rewired
+npm install -D  react-app-alias
+
+
+Redux
+====================
+
+npm i react-redux @reduxjs/toolkit
+
+
+## Others
+=================
+npm i react-router-dom
+
+npm i socket.io-client
