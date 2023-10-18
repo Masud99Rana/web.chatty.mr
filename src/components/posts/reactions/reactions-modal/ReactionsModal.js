@@ -1,5 +1,4 @@
 import ReactionWrapper from '@components/posts/modal-wrappers/reaction-wrapper/ReactionWrapper';
-import '@components/posts/reactions/reactions-modal/ReactionsModal.scss';
 import ReactionList from '@components/posts/reactions/reactions-modal/reaction-list/ReactionList';
 import useEffectOnce from '@hooks/useEffectOnce';
 import { closeModal } from '@redux/reducers/modal/modal.reducer';
@@ -10,6 +9,7 @@ import { Utils } from '@services/utils/utils.service';
 import { filter, orderBy, some } from 'lodash';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import '@components/posts/reactions/reactions-modal/ReactionsModal.scss';
 
 const ReactionsModal = () => {
   const { _id, reactions } = useSelector((state) => state.post);
